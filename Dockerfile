@@ -44,10 +44,10 @@ RUN \
       /var/www/html/ && \
  curl -o \
       /tmp/sbpp.tar.gz -L \
-      "https://github.com/sbpp/sourcebans-pp/releases/download/${SBPP_RELEASE}/sourcebans-pp-${SBPP_RELEASE}.webpanel-only.tar.gz" && \
+      "https://github.com/sbpp/sourcebans-pp/archive/v1.x.tar.gz" && \
  tar xf \
       /tmp/sbpp.tar.gz -C \
-      /var/www/html/ && \
+      /var/www/html/ --strip-components=1 && \
  mv \
       "/var/www/html/" \
  /defaults/ && \
