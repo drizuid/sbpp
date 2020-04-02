@@ -47,10 +47,10 @@ RUN \
       "https://github.com/sbpp/sourcebans-pp/archive/v1.x.tar.gz" && \
  tar xf \
       /tmp/sbpp.tar.gz -C \
-      /var/www/html/ --strip-components=1 && \
+      /tmp --strip-components=1 && \
  mv \
-      "/var/www/html/" \
- /defaults/ && \
+      "/tmp/web/" \
+ /defaults/html/ && \
  echo "**** cleanup ****" && \
  rm -rf \
         /tmp/*
