@@ -38,7 +38,7 @@ Find us at:
 
 [Sbpp](https://sbpp.dev) is a global admin, ban, and communication management system for the Source engine.
 
-[![sbpp](https://raw.githubusercontent.com/sbpp/sourcebans-pp/v1.x/.github/logo.png)](https://sbpp.dev)
+[![sbpp](https://raw.githubusercontent.com/sbpp/sourcebans-pp/v1.x/.github/logo.png | width=100)](https://sbpp.dev)
 
 ## Supported Architectures
 
